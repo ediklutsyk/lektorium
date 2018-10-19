@@ -1,7 +1,4 @@
-body{
-	height: 10000px;
-}
-
+/*Head start*/
 .head{
 	border-bottom: 1px #777 solid;
 }
@@ -22,13 +19,12 @@ body{
 #head-3{
 	width: 52%;
 }
+/*Head end*/
 
 /*Content start*/
 .content{
 	height: 900px;
 	border-bottom: 1px #777 solid;
-	/*min-height: 00px;*/
-	/*background-color: red;*/
 }
 .content-left-block{
 	background-color: #777;
@@ -37,7 +33,6 @@ body{
 	position: relative;
 	width: 15%;
 	height: 90%;
-	/*background-color: green;*/
 	float: left;
 	margin: 0 2%;
 	padding: 2% 0;
@@ -47,20 +42,16 @@ body{
 	margin: 0 2%;
 }
 #content-7{
-	/*display: block;*/
 	position: absolute;
 	width: 96%;
 	margin-left: 2%;
 	bottom: 0;
-	/*margin-top: 500px;*/
-	/*background-color: red;*/
 	height: 200px;
 	margin: 2%;
 }
 .center{
 	width: 80%;
 	height: 100%;
-	/*background-color: blue;*/
 	float: left;
 }
 .content-center-block{
@@ -73,7 +64,6 @@ body{
 }
 #content-center-block-6{
 	min-height: 150px;
-	/*background-color: yellow;*/
 	padding-left: 2%;
 }
 #content-center-block-6 > .content-center-block{
@@ -84,7 +74,6 @@ body{
 	margin: 0 2% 1% 0%;
 }
 #content-center-blocks-8-9{
-	/*background-color: pink;*/
 	height: 300px;
 	padding-left: 2%;
 }
@@ -98,7 +87,6 @@ body{
 
 /*Footer start*/
 .footer{
-	/*background-color: red;*/
 	height: 400px;
 	padding-top: 2%;
 }
@@ -113,7 +101,6 @@ body{
 
 .footer-block-with-childrens{
 	background: none;
-	/*background-color: green;*/
 }
 
 .footer-block-with-childrens>div{
@@ -124,8 +111,6 @@ body{
 }
 
 /*Footer end*/
-
-
 
 .clear:after {
 	content: "&nbsp;";
