@@ -1,0 +1,137 @@
+body{
+	height: 10000px;
+}
+
+.head{
+	border-bottom: 1px #777 solid;
+}
+.head-block{
+	display: block;
+	float: left;
+	background-color: #777777;
+	height: 100px;
+	margin: 1%;
+	padding: 1%;
+}
+#head-1{
+	width: 8%;
+}
+#head-2{
+	width: 28%;
+}
+#head-3{
+	width: 52%;
+}
+
+/*Content start*/
+.content{
+	height: 900px;
+	border-bottom: 1px #777 solid;
+	/*min-height: 00px;*/
+	/*background-color: red;*/
+}
+.content-left-block{
+	background-color: #777;
+}
+.left{
+	position: relative;
+	width: 15%;
+	height: 90%;
+	/*background-color: green;*/
+	float: left;
+	margin: 0 2%;
+	padding: 2% 0;
+}
+#content-4{
+	height: 350px;
+	margin: 0 2%;
+}
+#content-7{
+	/*display: block;*/
+	position: absolute;
+	width: 96%;
+	margin-left: 2%;
+	bottom: 0;
+	/*margin-top: 500px;*/
+	/*background-color: red;*/
+	height: 200px;
+	margin: 2%;
+}
+.center{
+	width: 80%;
+	height: 100%;
+	/*background-color: blue;*/
+	float: left;
+}
+.content-center-block{
+	background-color: #DCDCDC;
+}
+#content-center-block-5{
+	width: 96%;
+	margin: 2%;
+	min-height: 200px;
+}
+#content-center-block-6{
+	min-height: 150px;
+	/*background-color: yellow;*/
+	padding-left: 2%;
+}
+#content-center-block-6 > .content-center-block{
+	height: 100%;
+	min-height: 150px;
+	width: 17%;
+	float: left;
+	margin: 0 2% 1% 0%;
+}
+#content-center-blocks-8-9{
+	/*background-color: pink;*/
+	height: 300px;
+	padding-left: 2%;
+}
+#content-center-blocks-8-9>div{
+	width: 48%;
+	height: 100%;
+	float: left;
+	margin-right: 2%;
+}
+/*Content end*/
+
+/*Footer start*/
+.footer{
+	/*background-color: red;*/
+	height: 400px;
+	padding-top: 2%;
+}
+
+.footer-block{
+	width: 30%;
+	margin-left: 2%;
+	height: 100%;
+	float: left;
+	background-color: #777;
+}
+
+.footer-block-with-childrens{
+	background: none;
+	/*background-color: green;*/
+}
+
+.footer-block-with-childrens>div{
+	width: 100%;
+	height: 45%;
+	background-color: #777;
+	margin-bottom: 7%;
+}
+
+/*Footer end*/
+
+
+
+.clear:after {
+	content: "&nbsp;";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
